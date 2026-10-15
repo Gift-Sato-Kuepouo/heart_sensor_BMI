@@ -56,16 +56,16 @@ PPG theory, experimental method, and error analysis.
 
 ## Features
 
-- ❤️ **PPG heart-rate sensing** with the MAX30102 over I2C (address `0x57`).
-- 🖥️ **SSD1306 128×64 OLED** output: large BPM value, status prompts, and a
+-  **PPG heart-rate sensing** with the MAX30102 over I2C (address `0x57`).
+-  **SSD1306 128×64 OLED** output: large BPM value, status prompts, and a
   heartbeat glyph.
-- 💡 **Beat-synchronised LED** on D9 through a 220 Ω current-limiting resistor.
-- 📈 **Finger detection** — the display asks for a fingertip when the sensor
+-  **Beat-synchronised LED** on D9 through a 220 Ω current-limiting resistor.
+-  **Finger detection** — the display asks for a fingertip when the sensor
   sees only ambient light.
-- 🧮 **8-beat moving average** for a stable BPM with ~1 beat of lag.
-- 📟 **Serial Plotter output** (`IR=... BPM=...`) for viewing the raw PPG
+-  **8-beat moving average** for a stable BPM with ~1 beat of lag.
+-  **Serial Plotter output** (`IR=... BPM=...`) for viewing the raw PPG
   signal on your PC.
-- 📖 **Student lab guide** with background theory, timed experiments,
+-  **Student lab guide** with background theory, timed experiments,
   observation tables, analysis questions and troubleshooting.
 
 ## How it works
