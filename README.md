@@ -239,4 +239,4 @@ Released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 ## Author
 
-**Gift Sato Kuepouo** — Electrical & Computer Engineering project.
+**Gift Sato Kuepouo** — A Electrical & Computer Engineering project.
