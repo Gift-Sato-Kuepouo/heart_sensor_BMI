@@ -37,7 +37,7 @@
 
 ## Overview
 
-`heart_sensor_BMI` is an Electrical & Computer Engineering teaching project.
+`heart_sensor_BMI` is an Electrical & Computer Engineering independent project I carried out to understand the generic heart sensors.
 A **MAX30102** module shines red and infrared light into a fingertip and
 measures how much light comes back. Because arterial blood volume pulses with
 every heartbeat, that reflected light pulses too — a technique called
