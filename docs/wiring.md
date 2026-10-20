@@ -7,6 +7,8 @@ and the bill of materials for the heart-rate monitor.
 - Reference files: [`hardware/poi.png`](../hardware/poi.png) (breadboard view),
   [`hardware/Schematic_poi.png`](../hardware/Schematic_poi.png) (schematic view),
   [`hardware/PCB_poi.png`](../hardware/PCB_poi.png) (PCB view),
+  [`hardware/basic-heart-rate-sensor-pcb.fzz`](../hardware/basic-heart-rate-sensor-pcb.fzz)
+  (Fritzing source), and
   [`hardware/gy-max30102-module.fzpz`](../hardware/gy-max30102-module.fzpz)
   (Fritzing part — double-click to install into Fritzing), and the video
   walkthrough [`hardware/SetupVideo.mov`](../hardware/SetupVideo.mov).

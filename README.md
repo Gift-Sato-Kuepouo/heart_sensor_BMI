@@ -117,7 +117,9 @@ coexist because their addresses differ (`0x57` sensor, `0x3C` display).
 
 See **[`docs/wiring.md`](docs/wiring.md)** for the full pin map, I2C bus
 diagram, power budget and assembly checklist, and
-[`hardware/`](hardware/) for the Fritzing views and a setup video.
+[`hardware/`](hardware/) for the Fritzing source
+([`basic-heart-rate-sensor-pcb.fzz`](hardware/basic-heart-rate-sensor-pcb.fzz)),
+views and a setup video.
 
 ## Repository structure
 
@@ -133,6 +135,7 @@ heart_sensor_BMI/
 │   ├── poi.png                       # Fritzing breadboard export
 │   ├── Schematic_poi.png             # Fritzing schematic export
 │   ├── PCB_poi.png                   # Fritzing PCB export
+│   ├── basic-heart-rate-sensor-pcb.fzz  # Fritzing source (open with Fritzing)
 │   ├── gy-max30102-module.fzpz       # Fritzing part (install into Fritzing)
 │   └── SetupVideo.mov                # Physical setup walkthrough
 ├── CHANGELOG.md
