@@ -121,27 +121,6 @@ diagram, power budget and assembly checklist, and
 ([`basic-heart-rate-sensor-pcb.fzz`](hardware/basic-heart-rate-sensor-pcb.fzz)),
 views and a setup video.
 
-## Repository structure
-
-```
-heart_sensor_BMI/
-├── firmware/
-│   └── heart_sensor_BMI/
-│       └── heart_sensor_BMI.ino      # Main Arduino sketch
-├── docs/
-│   ├── wiring.md                     # Wiring, BOM, I2C notes, checklist
-│   └── investigation.md              # Student lab guide (theory + experiments)
-├── hardware/
-│   ├── poi.png                       # Fritzing breadboard export
-│   ├── Schematic_poi.png             # Fritzing schematic export
-│   ├── PCB_poi.png                   # Fritzing PCB export
-│   ├── basic-heart-rate-sensor-pcb.fzz  # Fritzing source (open with Fritzing)
-│   ├── gy-max30102-module.fzpz       # Fritzing part (install into Fritzing)
-│   └── SetupVideo.mov                # Physical setup walkthrough
-├── CHANGELOG.md
-├── LICENSE
-└── README.md
-```
 
 ## Getting started
 
