@@ -2,7 +2,7 @@
 
  An Arduino Uno prototype that reads heart rate with a **MAX30102**
  optical (PPG) sensor, shows live **BPM** on a **0.96" SSD1306 OLED**,
- and blinks an LED on every beat — plus a student lab guide for
+ and blinks an LED on every beat plus a student lab guide for
  investigating how optical heart-rate sensing works.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -40,7 +40,7 @@
 `heart_sensor_BMI` is an Electrical & Computer Engineering independent project I carried out to understand the generic heart sensors.
 A **MAX30102** module shines red and infrared light into a fingertip and
 measures how much light comes back. Because arterial blood volume pulses with
-every heartbeat, that reflected light pulses too — a technique called
+every heartbeat, that reflected light pulses too a technique called
 **photoplethysmography (PPG)**, the same principle behind hospital finger
 clips. The Arduino timestamps each pulse, converts the intervals into beats
 per minute, and shows the result on a small OLED while an LED flashes in
@@ -56,16 +56,16 @@ PPG theory, experimental method, and error analysis.
 
 ## Features
 
--  **PPG heart-rate sensing** with the MAX30102 over I2C (address `0x57`).
--  **SSD1306 128×64 OLED** output: large BPM value, status prompts, and a
+-  **PPG heart-rate sensing**: with the MAX30102 over I2C (address `0x57`).
+-  **SSD1306 128×64 OLED**: output: large BPM value, status prompts, and a
   heartbeat glyph.
--  **Beat-synchronised LED** on D9 through a 220 Ω current-limiting resistor.
--  **Finger detection** — the display asks for a fingertip when the sensor
+-  **Beat-synchronised LED**: on D9 through a 220 Ω current-limiting resistor.
+-  **Finger detection** : the display asks for a fingertip when the sensor
   sees only ambient light.
--  **8-beat moving average** for a stable BPM with ~1 beat of lag.
--  **Serial Plotter output** (`IR=... BPM=...`) for viewing the raw PPG
+-  **8-beat moving average**: for a stable BPM with ~1 beat of lag.
+-  **Serial Plotter output**: (`IR=... BPM=...`) for viewing the raw PPG
   signal on your PC.
--  **Student lab guide** with background theory, timed experiments,
+-  **Student lab guide**: with background theory, timed experiments,
   observation tables, analysis questions and troubleshooting.
 
 ## How it works
