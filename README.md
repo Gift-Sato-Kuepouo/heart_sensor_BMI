@@ -1,9 +1,9 @@
 # heart_sensor_BMI
 
-> An Arduino Uno prototype that reads heart rate with a **MAX30102**
-> optical (PPG) sensor, shows live **BPM** on a **0.96" SSD1306 OLED**,
-> and blinks an LED on every beat — plus a student lab guide for
-> investigating how optical heart-rate sensing works.
+ An Arduino Uno prototype that reads heart rate with a **MAX30102**
+ optical (PPG) sensor, shows live **BPM** on a **0.96" SSD1306 OLED**,
+ and blinks an LED on every beat — plus a student lab guide for
+ investigating how optical heart-rate sensing works.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Arduino%20Uno-00979D.svg)
