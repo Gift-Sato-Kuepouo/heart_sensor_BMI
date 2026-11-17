@@ -171,7 +171,7 @@ Tips for a clean signal:
 - Don't press hard — excessive pressure blanches the capillaries.
 - Shield the sensor from direct sunlight or lamps if readings wander.
 
-## Student investigation
+## My Investigation
 
 The heart of this repository as a teaching artifact is
 **[`docs/investigation.md`](docs/investigation.md)**. It contains:
